@@ -131,3 +131,11 @@ h1, h2, h3 { font-family: var(--display); font-weight: 500; line-height: 1.1; ma
 }
 
 @media (max-width: 640px) { .hero-art { margin-top: 0; } }
+
+/* Featured talks and articles */
+.feature { display: flex; flex-direction: column; gap: 8px; }
+.feature .meta { margin: 0; font-size: 0.85rem; color: var(--muted); letter-spacing: 0.04em; }
+.feature .kind { color: var(--mint); font-weight: 500; text-transform: uppercase; letter-spacing: 0.12em; }
+.feature h3 a { text-decoration: none; color: var(--lavender); }
+.feature h3 a:hover { color: var(--peach); }
+.feature .more { margin-top: auto; padding-top: 6px; font-size: 0.95rem; }

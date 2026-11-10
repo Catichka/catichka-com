@@ -35,13 +35,14 @@ export const about = {
   quote: 'Turning emerging ideas into practical, responsible solutions.',
   paragraphs: [
     'I’m an Australian technology and innovation leader working across digital infrastructure, artificial intelligence, research partnerships and organisational transformation.',
-    'Over fifteen years I’ve worked closely with small and digital businesses, gaming publishers, government and telecommunications. At nbn I connect Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
+    'I hold a Master’s degree in Artificial Intelligence, and over fifteen years I’ve worked closely with small and digital businesses, gaming publishers, government and telecommunications. At nbn I connect Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
     'I’m most interested in where technology and human capability meet: how organisations adopt AI well, how research becomes real-world impact, and how we use powerful tools without losing what makes us human.',
   ],
   facts: [
     { value: '15 years', label: 'across tech, games, government and telco' },
     { value: 'nbn', label: 'technology and innovation leadership' },
     { value: 'UTS', label: 'Honorary Industry Fellow' },
+    { value: 'Master’s', label: 'in Artificial Intelligence' },
     { value: 'CatichkaBeta', label: 'founder of a small AI-powered studio' },
   ],
 };
@@ -90,10 +91,43 @@ export const experience = [
     href: 'https://catichkabeta.com',
   },
   {
+    org: 'National Survivors Foundation',
+    role: 'Volunteer',
+    body: 'Volunteering with a national charity that supports survivors of institutional abuse.',
+    points: [],
+  },
+  {
+    org: 'Master of Artificial Intelligence',
+    role: 'Education',
+    body: 'Postgraduate study in artificial intelligence.',
+    points: [],
+  },
+  {
     org: 'Earlier career',
     role: 'Fifteen years across sectors',
     body: 'Working closely with a wide range of organisations.',
     points: ['Small and digital businesses', 'Gaming publishers', 'Government', 'Telecommunications'],
+  },
+];
+
+// Featured talks and articles (newest first). To add one: Catherine sends the LinkedIn link and text,
+// and a new entry goes at the top. kind is 'Talk', 'Article' or 'In the media'.
+export const featured = [
+  {
+    kind: 'In the media',
+    date: '10 November 2026',
+    title: 'How nbn® prepares for GTA 6',
+    body: 'On how nbn® Australia works with the content distribution community to model the impact of major game releases, and uses pre-seeding to spread downloads out and reduce demand at launch.',
+    href: 'https://www.linkedin.com/posts/catherinecampbell-_gaming-innovation-nbn-share-7525783813260763137-Sb9X/',
+    linkLabel: 'Read on LinkedIn',
+  },
+  {
+    kind: 'Talk',
+    date: '4 November 2026',
+    title: 'Speaking at the RMIT EnGenius Awards',
+    body: 'Representing nbn® Australia on ASTRID, what innovation really looks like in a corporate environment, AI leadership and future careers, and why designs need a Proof of Benefit, not just a proof of concept.',
+    href: 'https://www.linkedin.com/posts/catherinecampbell-_engenius-astrid-innovation-share-7523557995084173313-YnsJ/',
+    linkLabel: 'Read on LinkedIn',
   },
 ];
 
