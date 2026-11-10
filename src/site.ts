@@ -146,6 +146,13 @@ export const experience = [
     points: ['Worked with emerging Australian software and game developers on player communities, marketing, and product testing and development'],
   },
   {
+    // Catherine (10 Nov 2026): change to GAICD once the Company Directors Course exam is complete.
+    org: 'Australian Institute of Company Directors',
+    role: 'Member (MAICD)',
+    body: 'Member of the Australian Institute of Company Directors, completing the Company Directors Course.',
+    points: [],
+  },
+  {
     org: 'UNSW',
     role: 'Education',
     body: 'Master’s in Artificial Intelligence (2008 – 2011), and a Bachelor of Arts with Honours in Analytical Philosophy, Psychology and Artificial Intelligence (2000 – 2007).',
