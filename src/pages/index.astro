@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import { hero, thinking, making, work, hi, art } from '../site';
+---
+<Base>
+  <section class="hero wrap">
+    <h1>{hero.name}</h1>
+    <p class="hero-line">{hero.line}</p>
+    <a class="hero-cta" href={hero.cta.href}>{hero.cta.label}</a>
+    <img class="hero-art" src={art.hero} alt={art.heroAlt} width="1076" height="629" fetchpriority="high" />
+  </section>
+
+  <section id="thinking" class="section wrap">
+    <p class="kicker">thinking</p>
+    <h2>What I’m thinking about</h2>
+    <p class="lede">{thinking.intro}</p>
+    <ul class="cards">
+      {thinking.ideas.map((idea) => (
+        <li class="card"><h3>{idea.title}</h3><p>{idea.body}</p></li>
+      ))}
+    </ul>
+    <p><a class="link" href={thinking.substack}>Read my latest writing on Substack ↗</a></p>
+  </section>
+
+  <section id="making" class="section wrap">
+    <p class="kicker">making</p>
+    <h2>What I make</h2>
+    <p class="lede">{making.intro}</p>
+    <ul class="cards">
+      {making.projects.map((p) => (
+        <li class="card">
+          <h3>{p.href ? <a href={p.href}>{p.title} <span aria-hidden="true">↗</span></a> : p.title}</h3>
+          <p>{p.body}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="work" class="section wrap work">
+    <p class="kicker">work &amp; research</p>
+    <h2>Work and research</h2>
+    <p class="lede">{work.intro}</p>
+    <div class="cols">
+      <div>
+        <h3 class="col-title">Expertise</h3>
+        <dl class="list">
+          {work.expertise.map((e) => (<div><dt>{e.title}</dt><dd>{e.body}</dd></div>))}
+        </dl>
+      </div>
+      <div>
+        <h3 class="col-title">Experience</h3>
+        <dl class="list">
+          {work.experience.map((e) => (<div><dt>{e.title}</dt><dd>{e.body}</dd></div>))}
+        </dl>
+      </div>
+    </div>
+    <ul class="pills">
+      {work.profiles.map((p) => (<li><a href={p.href}>{p.label} ↗</a></li>))}
+    </ul>
+  </section>
+
+  <section id="hi" class="section wrap hi">
+    <p class="kicker">say hi</p>
+    <h2>Say hi</h2>
+    <p class="lede">{hi.line}</p>
+    <p><a class="email" href={`mailto:${hi.email}`}>{hi.email}</a></p>
+    <ul class="pills">
+      {hi.socials.map((s) => (<li><a href={s.href}>{s.label} ↗</a></li>))}
+    </ul>
+  </section>
+</Base>
