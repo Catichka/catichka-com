@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
-import { hero, about, expertise, experience, research, closing, art } from '../site';
+import { hero, about, expertise, experience, featured, research, closing, art } from '../site';
 ---
 <Base>
   <section class="hero wrap">
@@ -60,6 +60,23 @@ import { hero, about, expertise, experience, research, closing, art } from '../s
       ))}
     </ol>
   </section>
+
+  {featured.length > 0 && (
+    <section id="featured" class="section wrap">
+      <p class="eyebrow">Featured</p>
+      <h2>Talks and articles</h2>
+      <ul class="cards featured">
+        {featured.map((f) => (
+          <li class="card feature">
+            <p class="meta"><span class="kind">{f.kind}</span> · <time>{f.date}</time></p>
+            <h3><a href={f.href}>{f.title}</a></h3>
+            <p>{f.body}</p>
+            <a class="more" href={f.href}>{f.linkLabel} ↗</a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   <section id="research" class="section wrap">
     <p class="eyebrow">Research and speaking</p>

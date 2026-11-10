@@ -110,6 +110,19 @@ export const experience = [
   },
 ];
 
+// Featured talks and articles (newest first). To add one: Catherine sends the LinkedIn link and text,
+// and a new entry goes at the top. kind is 'Talk' or 'Article'.
+export const featured = [
+  {
+    kind: 'Talk',
+    date: '4 November 2026',
+    title: 'Speaking at the RMIT EnGenius Awards',
+    body: 'Representing nbn® Australia on ASTRID, what innovation really looks like in a corporate environment, AI leadership and future careers, and why designs need a Proof of Benefit, not just a proof of concept.',
+    href: 'https://www.linkedin.com/posts/catherinecampbell-_engenius-astrid-innovation-share-7523557995084173313-YnsJ/',
+    linkLabel: 'Read on LinkedIn',
+  },
+];
+
 export const research = {
   intro: 'My research sits where philosophy, cognitive science, neuroscience and AI meet. I also speak regularly on using AI ethically and well.',
   areas: {
