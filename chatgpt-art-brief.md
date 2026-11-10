@@ -69,7 +69,7 @@ Top tabs (Catherine's call): linkedin ↗, catichkabeta ↗, blog ↗ (Substack)
 
 **Changes to batch 2**
 4. Hero illustration: text-free, based on the approved notebook composition (no nav or words baked in). Also make a narrow phone version, `hero-mobile.png` (about 900×1400, book and lamp centred, top third clear for the heading), or supply layers.
-5. Section icons: About, Expertise, Experience, Research and speaking (four). Square, transparent PNGs.
+5. Expertise icons: three small line icons for the Expertise cards, replacing Claude's stand-ins: `icon-ai.png` (AI strategy and responsible AI; Claude used a spark), `icon-research.png` (research and innovation partnerships; Claude used a bridge) and `icon-infrastructure.png` (digital infrastructure; Claude used connected nodes). Peach line art, square, transparent, readable at 40px.
 6. Portrait treatment: now more important, because it goes in About. I'll supply the photo.
 7. Link preview card: unchanged.
 
@@ -78,3 +78,10 @@ Top tabs (Catherine's call): linkedin ↗, catichkabeta ↗, blog ↗ (Substack)
 - Please make `mark-small.png`: a thicker-line, simplified mark for favicon and nav sizes (16–32px), and use it for the favicon.
 
 Please add to this section, or put notes in a new file, rather than replacing it, so Claude's notes don't get lost.
+
+**Update 10 November 2026, evening: the full page layout is approved by Catherine.** Screenshot: docs/screenshots/skeleton-v01/home-desktop.png in the GitHub repo (Catichka/catichka-com). Batch 2 is next, in this order:
+1. Text-free hero, plus `hero-mobile.png` (the most important item).
+2. Clean re-exports of `mark.png` and `wordmark.png`, and `mark-small.png` for the favicon.
+3. The three Expertise icons (item 5).
+4. Portrait frame treatment (once Catherine supplies a photo) and the 1200×630 link preview card.
+Put batch 2 in docs/art/batch-02/ with its own START-HERE.md.
