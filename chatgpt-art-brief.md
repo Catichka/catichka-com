@@ -50,14 +50,38 @@ One scrolling page, top half personal and bottom half professional:
 **Hand-off (same as catichkabeta)**
 This site will have its own GitHub repo; I'll send you the link once it exists. Put each batch in its own folder under docs/art/ (e.g. docs/art/batch-01/) with a START-HERE.md that says what each file is and which slot it fills (mark, wordmark, fonts, hero, icons.thinking / icons.making / icons.work / icons.hi, portraitFrame, shareImage, favicon, notFound). Commit on a new branch and open a pull request into main. If GitHub won't let you push, just give me the files to download and I'll pass them to Claude.
 
-**Update after batch 1 (10 November 2026)**
-Thank you, batch 1 is lovely. Approved so far: the hero direction (`hero-style-approved.png`, centred serif intro over the notebook under the lamp) and the druid outline mark (`mark.png`). The book-and-spark mark is out. Still to come from batch 1: the wordmark and the font pairing.
+**Update after batch 1 (10 November 2026): read this first. It overrides anything above that disagrees.**
 
-Claude reviewed the files and has these notes. Please fold them into what's next:
-1. **Clean re-export of `mark.png`.** The "transparent" area has faint blue, pink and white speckles (partly transparent pixels around the figure). They don't show on near-black but would show on white, like a light-mode browser tab or a LinkedIn preview. Please re-export it with a truly clean transparent background: only the lavender outline and the peach fold, nothing else.
-2. **A bold small version of the mark.** At 16–32px the outline gets thin and fades. Please make `mark-small.png` with a thicker line and simplified detail for favicon and nav sizes, and use it for the favicon (item 8).
-3. **Phone layout for the hero.** The hero is wide, with the mug on the left and the lamp on the right. With the text-free hero in batch 2 (item 4), please also make a narrow mobile crop (`hero-mobile.png`, about 900×1400, with the book and lamp centred, leaving the top third clear for the heading). Or supply layers (book, lamp, mug, jar, background) as separate transparent PNGs so Claude can arrange them.
-4. **Name the fonts.** Please name the exact web fonts (ideally free on Google Fonts) for the headings and body text. The serif in the hero reference is the look we want to keep.
-5. **Text-free hero.** As noted in START-HERE.md, the batch 2 hero must have no baked-in text or nav. Claude builds all text and links as real web text.
+Batch 1 is approved: the hero direction (notebook under the lamp), the druid mark, the wordmark, and the fonts (Cormorant Garamond 500 for headings, DM Sans 400/500 for body and nav). Thank you!
 
-Next steps, in order: finish batch 1 (wordmark, fonts and items 1–2 above), then batch 2.
+**Direction change from Catherine: catichka.com is a professional site.** It tells people who I am professionally and showcases my professional life. It is NOT a blog or a "blog lite". So:
+- Drop "What I'm thinking about" and the Substack feed. Substack is just one link in the contact section.
+- "What I make" becomes one entry in my experience (founder of CatichkaBeta) plus the catichkabeta ↗ tab, not its own section.
+- The visual style stays (notebook by lamplight, pastels on near-black). It's the warm, human wrapper around a credible professional profile.
+
+**New page structure (Claude builds this)**
+1. **Hero:** my name, a one-line professional positioning (technology and innovation leader: AI strategy, research partnerships, digital infrastructure), buttons for "See my work" and "Connect on LinkedIn", and the notebook illustration.
+2. **About:** a short professional bio with my portrait.
+3. **Expertise:** AI strategy and responsible AI, research and innovation partnerships, digital infrastructure.
+4. **Experience:** a career timeline (nbn, UTS Honorary Industry Fellow, ASTRID collaboration, founder of CatichkaBeta, earlier roles).
+5. **Research and speaking:** UTS, ORCID, talks, seminars and workshops on ethical and responsible AI.
+Top tabs (Catherine's call): linkedin ↗, catichkabeta ↗, blog ↗ (Substack) and contact (an email link to connect@catichkabeta.com). There's no separate contact section on the page.
+
+**Changes to batch 2**
+4. Hero illustration: text-free, based on the approved notebook composition (no nav or words baked in). Also make a narrow phone version, `hero-mobile.png` (about 900×1400, book and lamp centred, top third clear for the heading), or supply layers.
+5. Expertise icons: three small line icons for the Expertise cards, replacing Claude's stand-ins: `icon-ai.png` (AI strategy and responsible AI; Claude used a spark), `icon-research.png` (research and innovation partnerships; Claude used a bridge) and `icon-infrastructure.png` (digital infrastructure; Claude used connected nodes). Peach line art, square, transparent, readable at 40px.
+6. Portrait treatment: now more important, because it goes in About. I'll supply the photo.
+7. Link preview card: unchanged.
+
+**Fixes to existing files**
+- `mark.png` and `wordmark.png` both have faint blue, pink and white speckles in the "transparent" area. They're invisible on near-black but show on white (light-mode browser tabs, LinkedIn previews). Please re-export both with genuinely clean transparency. (Claude has cleaned the mark for now. The site uses live Cormorant Garamond text for the wordmark, so the wordmark PNG is only needed for things like social images.)
+- Please make `mark-small.png`: a thicker-line, simplified mark for favicon and nav sizes (16–32px), and use it for the favicon.
+
+Please add to this section, or put notes in a new file, rather than replacing it, so Claude's notes don't get lost.
+
+**Update 10 November 2026, evening: the full page layout is approved by Catherine.** Screenshot: docs/screenshots/skeleton-v01/home-desktop.png in the GitHub repo (Catichka/catichka-com). Batch 2 is next, in this order:
+1. Text-free hero, plus `hero-mobile.png` (the most important item).
+2. Clean re-exports of `mark.png` and `wordmark.png`, and `mark-small.png` for the favicon.
+3. The three Expertise icons (item 5).
+4. Portrait frame treatment (once Catherine supplies a photo) and the 1200×630 link preview card.
+Put batch 2 in docs/art/batch-02/ with its own START-HERE.md.

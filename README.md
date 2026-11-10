@@ -6,4 +6,4 @@ Catherine Campbell's personal site: the personal and professional sibling of [ca
 - Brief: `chatgpt-art-brief.md`.
 - Site code: Claude. Changes arrive as pull requests for Cat to review.
 
-The catichka.com domain is still being transferred, so nothing is pointed at this repo yet.
+Pushes to main deploy to GitHub Pages (.github/workflows/deploy.yml). The custom domain catichka.com is set in Settings, then Pages; its DNS is managed in Cloudflare until the domain moves to Squarespace.

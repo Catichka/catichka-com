@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { hero, about, expertise, experience, research, closing, art } from '../site';
+---
+<Base>
+  <section class="hero wrap">
+    <p class="kicker">{hero.kicker}</p>
+    <h1>{hero.name}</h1>
+    <p class="hero-line">{hero.line}</p>
+    <div class="actions">
+      {hero.actions.map((a) => <a class:list={['btn', { ghost: a.ghost }]} href={a.href}>{a.label}</a>)}
+    </div>
+    <img class="hero-art" src={art.hero} alt={art.heroAlt} width="1076" height="629" fetchpriority="high" />
+  </section>
+
+  <section id="about" class="section wrap">
+    <p class="eyebrow">About</p>
+    <div class:list={['about-grid', { 'has-portrait': art.portrait }]}>
+      {art.portrait && <img class="portrait" src={art.portrait} alt="Catherine Campbell" />}
+      <div>
+        <h2 class="quote">“{about.quote}”</h2>
+        {about.paragraphs.map((p) => <p class="about-p">{p}</p>)}
+      </div>
+    </div>
+    <ul class="facts">
+      {about.facts.map((f) => (<li><strong>{f.value}</strong><span>{f.label}</span></li>))}
+    </ul>
+  </section>
+
+  <section id="expertise" class="section wrap">
+    <p class="eyebrow">Expertise</p>
+    <h2>What I bring</h2>
+    <ul class="cards">
+      {expertise.map((e) => (
+        <li class="card">
+          <Icon name={e.icon} />
+          <h3>{e.title}</h3>
+          <p>{e.body}</p>
+          <ul class="ticks">{e.points.map((pt) => <li>{pt}</li>)}</ul>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section id="experience" class="section wrap">
+    <p class="eyebrow">Experience</p>
+    <h2>Where I’ve worked</h2>
+    <ol class="timeline">
+      {experience.map((x) => (
+        <li>
+          <p class="role">{x.role}</p>
+          <h3>{x.href ? <a href={x.href}>{x.org} <span aria-hidden="true">↗</span></a> : x.org}</h3>
+          <p class="muted">{x.body}</p>
+          <ul class="ticks">{x.points.map((pt) => <li>{pt}</li>)}</ul>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section id="research" class="section wrap">
+    <p class="eyebrow">Research and speaking</p>
+    <h2>Thinking in public</h2>
+    <p class="lede">{research.intro}</p>
+    <div class="cards two">
+      {[research.areas, research.speaking].map((g) => (
+        <div class="card">
+          <h3>{g.title}</h3>
+          <ul class="ticks">{g.points.map((pt) => <li>{pt}</li>)}</ul>
+        </div>
+      ))}
+    </div>
+    <div class="row">
+      <a class="btn" href={research.invite.href}>{research.invite.label}</a>
+      <ul class="pills">{research.links.map((l) => (<li><a href={l.href}>{l.label} ↗</a></li>))}</ul>
+    </div>
+  </section>
+
+  <section class="section wrap closing">
+    <h2>{closing.title}</h2>
+    <p class="lede">{closing.line}</p>
+    <a class="btn" href={closing.action.href}>{closing.action.label}</a>
+  </section>
+</Base>
