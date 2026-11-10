@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { hero, about, expertise, experience, research, contact, art } from '../site';
+import { hero, about, expertise, experience, research, art } from '../site';
 ---
 <Base>
   <section class="hero wrap">
@@ -52,12 +52,4 @@ import { hero, about, expertise, experience, research, contact, art } from '../s
     </ul>
   </section>
 
-  <section id="contact" class="section wrap contact">
-    <h2>Contact</h2>
-    <p class="lede">{contact.line}</p>
-    <p><a class="email" href={`mailto:${contact.email}`}>{contact.email}</a></p>
-    <ul class="pills">
-      {contact.links.map((s) => (<li><a href={s.href}>{s.label} ↗</a></li>))}
-    </ul>
-  </section>
 </Base>

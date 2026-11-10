@@ -65,12 +65,11 @@ Batch 1 is approved: the hero direction (notebook under the lamp), the druid mar
 3. **Expertise:** AI strategy and responsible AI, research and innovation partnerships, digital infrastructure.
 4. **Experience:** a career timeline (nbn, UTS Honorary Industry Fellow, ASTRID collaboration, founder of CatichkaBeta, earlier roles).
 5. **Research and speaking:** UTS, ORCID, talks, seminars and workshops on ethical and responsible AI.
-6. **Contact:** email, LinkedIn, plus the other socials.
-Nav: about, expertise, experience, research & speaking, contact, catichkabeta ↗.
+Top tabs (Catherine's call): linkedin ↗, catichkabeta ↗, blog ↗ (Substack) and contact (an email link to connect@catichkabeta.com). There's no separate contact section on the page.
 
 **Changes to batch 2**
 4. Hero illustration: text-free, based on the approved notebook composition (no nav or words baked in). Also make a narrow phone version, `hero-mobile.png` (about 900×1400, book and lamp centred, top third clear for the heading), or supply layers.
-5. Section icons: About, Expertise, Experience, Research and speaking, Contact (five, not four). Square, transparent PNGs.
+5. Section icons: About, Expertise, Experience, Research and speaking (four). Square, transparent PNGs.
 6. Portrait treatment: now more important, because it goes in About. I'll supply the photo.
 7. Link preview card: unchanged.
 

@@ -7,14 +7,13 @@ export const site = {
   description: 'Catherine Campbell: technology and innovation leader in AI strategy, research partnerships and digital infrastructure.',
 };
 
-// Nav labels and order. Catherine, 10 Nov 2026: this is a professional site, not a blog.
+// Top tabs (Catherine, 10 Nov 2026): LinkedIn, CatichkaBeta, blog on Substack, and contact by email.
+// The page itself is a professional showcase, not a blog.
 export const nav = [
-  { href: '/#about', label: 'about' },
-  { href: '/#expertise', label: 'expertise' },
-  { href: '/#experience', label: 'experience' },
-  { href: '/#research', label: 'research & speaking' },
-  { href: '/#contact', label: 'contact' },
+  { href: 'https://www.linkedin.com/in/catherinecampbell-/', label: 'linkedin', external: true },
   { href: 'https://catichkabeta.com', label: 'catichkabeta', external: true },
+  { href: 'https://substack.com/@ca7ichka', label: 'blog', external: true },
+  { href: 'mailto:connect@catichkabeta.com', label: 'contact' },
 ];
 
 const linkedin = 'https://www.linkedin.com/in/catherinecampbell-/';
@@ -63,16 +62,6 @@ export const research = {
   ],
 };
 
-export const contact = {
-  line: 'For partnerships, research collaboration, speaking or advisory work, get in touch.',
-  email: 'connect@catichkabeta.com',
-  links: [
-    { label: 'LinkedIn', href: linkedin },
-    { label: 'Substack', href: 'https://substack.com/@ca7ichka' },
-    { label: 'Instagram', href: 'https://www.instagram.com/catichkasphilosophyforlife/' },
-    { label: 'X', href: 'https://x.com/catichka' },
-  ],
-};
 
 export const art = {
   mark: '/art/mark.png', // approved druid mark (batch 1), edges cleaned for web
