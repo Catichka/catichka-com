@@ -148,8 +148,8 @@ export const experience = [
   {
     // Catherine (10 Nov 2026): change to GAICD once the Company Directors Course exam is complete.
     org: 'Australian Institute of Company Directors',
-    role: 'Member (MAICD)',
-    body: 'Member of the Australian Institute of Company Directors, completing the Company Directors Course.',
+    role: 'Affiliate (AAICD)',
+    body: 'Affiliate member of the Australian Institute of Company Directors, completing the Company Directors Course.',
     points: [],
   },
   {
