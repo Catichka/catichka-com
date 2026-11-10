@@ -35,14 +35,14 @@ export const about = {
   quote: 'Turning emerging ideas into practical, responsible solutions.',
   paragraphs: [
     'I’m an Australian technology and innovation leader working across digital infrastructure, artificial intelligence, research partnerships and organisational transformation.',
-    'I hold a Master’s degree in Artificial Intelligence, and over fifteen years I’ve worked closely with small and digital businesses, gaming publishers, government and telecommunications. At nbn I connect Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
+    'I hold a Master’s in Analytical Philosophy and Artificial Intelligence from UNSW, and over twenty years I’ve worked with small and digital businesses, game developers, federal parliament and government, and telecommunications. As a General Manager in nbn’s Chief Technology Office I lead network innovation, partnerships and roadmaps, connecting Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
     'I’m most interested in where technology and human capability meet: how organisations adopt AI well, how research becomes real-world impact, and how we use powerful tools without losing what makes us human.',
   ],
   facts: [
-    { value: '15 years', label: 'across tech, games, government and telco' },
-    { value: 'nbn', label: 'technology and innovation leadership' },
+    { value: '20+ years', label: 'across business, games, government and telco' },
+    { value: 'nbn', label: 'General Manager, Network Innovation, CTO' },
     { value: 'UTS', label: 'Honorary Industry Fellow' },
-    { value: 'Master’s', label: 'in Artificial Intelligence' },
+    { value: 'Master’s', label: 'philosophy and AI, UNSW' },
     { value: 'CatichkaBeta', label: 'founder of a small AI-powered studio' },
   ],
 };
@@ -68,20 +68,61 @@ export const expertise = [
   },
 ];
 
-// Dates and exact job titles can be added later (date: '2021 – now').
+// Roles, dates and titles from Catherine's LinkedIn profile (10 Nov 2026). Newest first.
 export const experience = [
   {
-    org: 'nbn Australia',
-    role: 'Technology and innovation leadership',
-    body: 'Technology and innovation work within Australia’s national broadband ecosystem.',
-    points: ['Network partnerships', 'Connecting nbn with the research and innovation community', 'Industry–university collaboration, including UTS and ASTRID'],
+    org: 'nbn® Australia',
+    role: 'General Manager, Network Innovation, Partnerships and Roadmaps, CTO',
+    date: '2026 – now',
+    body: 'Leading innovation, network partnerships and strategic roadmaps in nbn’s Chief Technology Office, making CTO the innovation and network architecture backbone of nbn.',
+    points: [
+      'Innovation proof-of-concept governance, strategic alignment and roadmaps',
+      'Network strategic roadmaps across the physical network, automation and AI',
+      'Partnerships with ASTRID (UTS and RMIT), the Bureau of Meteorology, international wholesale networks, and the gaming, video and streaming industries',
+      'Executive and Board papers, white papers and technology disruption advice',
+      'Vendor innovation funds, IP and patents, and talent programs including ASTRID, nbn internships and the Graduate STEM strategy',
+    ],
+  },
+  {
+    org: 'nbn® Australia',
+    role: 'General Manager, Network Partnerships',
+    date: '2023 – 2026',
+    body: 'Strategic manager for nbn innovation engagement and program development across academia, wholesale telecommunications, over-the-top services and government agencies. From 2025 also accountable for CTO strategic roadmaps, finance, Board advice and proof-of-concept delivery.',
+    points: ['Chair, ASTRID Joint Management Committee (nbn and UTS)', 'Chair, nbn–CSIRO Joint Steering Committee'],
+  },
+  {
+    org: 'nbn® Australia',
+    role: 'Government Relations: Strategy and Planning, then Senior Advisor, Accountability and Strategic Projects',
+    date: '2019 – 2023',
+    body: 'Helping nbn work well in a complex political and regulatory environment.',
+    points: [
+      'Preparing and briefing the CEO and executives for parliamentary hearings, including Senate Estimates',
+      'Caretaker Period policy and compliance',
+      'Strategic advice on sensitive, business-critical issues and risks',
+      'Ministerial and departmental correspondence and time-sensitive media enquiries',
+    ],
+  },
+  {
+    org: 'National Survivors Foundation',
+    role: 'AI Transformation, Policy and Ethics (pro bono)',
+    date: '2026 – now',
+    body: 'Pro bono consultant on AI transformation, policy and ethics for one of Australia’s largest not-for-profit survivors foundations (formerly the In Good Faith Foundation).',
+    points: [],
   },
   {
     org: 'University of Technology Sydney',
     role: 'Honorary Industry Fellow',
-    body: 'Research collaboration that brings industry and academia together.',
+    date: '2025 – now',
+    body: 'Continuing my AI and digital research, writing papers and collaborating across the academic community.',
     points: ['The ASTRID collaboration', 'Writing on AI governance, roadmaps, capability and responsible output'],
     href: 'https://profiles.uts.edu.au/Catherine.Campbell/about',
+  },
+  {
+    org: 'UniSC Engineers',
+    role: 'Technology Industry Advisory Committee member',
+    date: '2024 – now',
+    body: 'Industry advice for engineering at the University of the Sunshine Coast.',
+    points: [],
   },
   {
     org: 'CatichkaBeta',
@@ -91,22 +132,24 @@ export const experience = [
     href: 'https://catichkabeta.com',
   },
   {
-    org: 'National Survivors Foundation',
-    role: 'Volunteer',
-    body: 'Volunteering with a national charity that supports survivors of institutional abuse.',
-    points: [],
+    org: 'Federal Parliament',
+    role: 'Staff to Brendan O’Connor MP (Shadow Minister) and Rob Mitchell MP',
+    date: '2016 – 2019',
+    body: 'Shadow ministerial and electorate work.',
+    points: ['Policy research and analysis, including workplace relations', 'Senate Estimates and Question Time preparation', 'Speech writing and parliamentary correspondence', 'Media, stakeholder and constituent engagement'],
   },
   {
-    org: 'Master of Artificial Intelligence',
+    org: 'Small business consultancy',
+    role: 'Consultant and small business analyst',
+    date: '2003 – 2019',
+    body: 'Ran a small business consultancy for more than a decade, across strategy, operations, finance, regulation and people.',
+    points: ['Worked with emerging Australian software and game developers on player communities, marketing, and product testing and development'],
+  },
+  {
+    org: 'UNSW',
     role: 'Education',
-    body: 'Postgraduate study in artificial intelligence.',
+    body: 'Master of Arts in Analytical Philosophy and Artificial Intelligence (2008 – 2011), and a Bachelor of Arts with Honours in Analytical Philosophy, Psychology and Artificial Intelligence (2000 – 2007).',
     points: [],
-  },
-  {
-    org: 'Earlier career',
-    role: 'Fifteen years across sectors',
-    body: 'Working closely with a wide range of organisations.',
-    points: ['Small and digital businesses', 'Gaming publishers', 'Government', 'Telecommunications'],
   },
 ];
 
@@ -140,6 +183,15 @@ export const research = {
   speaking: {
     title: 'Talks, seminars and workshops',
     points: ['Ethical and responsible uses of AI', 'Using AI tools without sacrificing your soul', 'AI strategy, governance and roadmaps for organisations', 'Bringing research and industry together'],
+  },
+  publications: {
+    title: 'Publications',
+    points: [
+      'A Novel Deep Learning Approach for Non-Invasive Condition Assessment of Broadband Pipes',
+      'A Vine-inspired Solution for Enhancing Safety and Efficiency in Broadband Cable Installation',
+      'nbn, gaming development and understanding the network ecosystem',
+      '‘Fact and Fiction in the Neuropsychology of Art’, chapter 4 in The Aesthetic Mind: Philosophy and Psychology',
+    ],
   },
   invite: { label: 'Invite me to speak', href: 'mailto:connect@catichkabeta.com?subject=Speaking%20invitation' },
   links: [
