@@ -11,13 +11,16 @@ import { hero, about, expertise, experience, research, closing, art } from '../s
     <div class="actions">
       {hero.actions.map((a) => <a class:list={['btn', { ghost: a.ghost }]} href={a.href}>{a.label}</a>)}
     </div>
-    <img class="hero-art" src={art.hero} alt={art.heroAlt} width="1076" height="629" fetchpriority="high" />
+    <picture>
+      <source media="(max-width: 640px)" srcset={art.heroMobile} width="768" height="667" />
+      <img class="hero-art" src={art.hero} alt={art.heroAlt} width="1536" height="1024" fetchpriority="high" />
+    </picture>
   </section>
 
   <section id="about" class="section wrap">
     <p class="eyebrow">About</p>
     <div class:list={['about-grid', { 'has-portrait': art.portrait }]}>
-      {art.portrait && <img class="portrait" src={art.portrait} alt="Catherine Campbell" />}
+      {art.portrait && <img class="portrait" src={art.portrait} alt={art.portraitAlt} width="640" height="800" loading="lazy" />}
       <div>
         <h2 class="quote">“{about.quote}”</h2>
         {about.paragraphs.map((p) => <p class="about-p">{p}</p>)}

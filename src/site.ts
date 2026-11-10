@@ -48,19 +48,19 @@ export const about = {
 
 export const expertise = [
   {
-    icon: 'spark',
+    icon: 'ai',
     title: 'AI strategy and responsible AI',
     body: 'Practical, thoughtful AI strategy that organisations can actually adopt.',
     points: ['AI strategy and roadmaps', 'Governance and responsible use', 'Building AI capability in teams', 'Ethics, policy and responsible output'],
   },
   {
-    icon: 'bridge',
+    icon: 'research',
     title: 'Research and innovation partnerships',
     body: 'Bridging academia and industry to connect promising research with real-world opportunities.',
     points: ['Industry and university collaboration', 'Turning research into practice', 'Innovation programs and ecosystems'],
   },
   {
-    icon: 'network',
+    icon: 'infrastructure',
     title: 'Digital infrastructure',
     body: 'How connectivity, technology ecosystems and partnerships shape Australia’s future.',
     points: ['National broadband ecosystem', 'Network partnerships', 'Technology and organisational transformation'],
@@ -121,9 +121,11 @@ export const closing = {
 };
 
 export const art = {
-  mark: '/art/mark.png', // approved druid mark (batch 1), edges cleaned for web
-  portrait: null as string | null, // Catherine's photo, framed per ChatGPT's portrait treatment (batch 2)
-  // Placeholder: cropped from the approved hero reference until ChatGPT's text-free hero (batch 2) arrives.
-  hero: '/art/hero-placeholder.webp',
+  mark: '/art/mark.png', // approved druid mark (clean batch 2 export)
+  portrait: '/art/portrait.webp' as string | null, // Catherine's photo (source: docs/art/source/portrait.png); frame treatment from ChatGPT later
+  portraitAlt: 'Catherine Campbell in glasses, chin in hand, reading a laptop screen.',
+  // Approved text-free hero from batch 2. The phone version is hero-mobile.png cropped to the illustration.
+  hero: '/art/hero.webp',
+  heroMobile: '/art/hero-mobile.webp',
   heroAlt: 'An open notebook under a warm desk lamp. One page shows a tree with pastel cogs among its leaves, the other a brain, joined by dotted lines of thought.',
 };
