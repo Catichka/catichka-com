@@ -122,7 +122,8 @@ export const closing = {
 
 export const art = {
   mark: '/art/mark.png', // approved druid mark (batch 1), edges cleaned for web
-  portrait: null as string | null, // Catherine's photo, framed per ChatGPT's portrait treatment (batch 2)
+  portrait: '/art/portrait.webp' as string | null, // Catherine's photo (source: docs/art/source/portrait.png); frame treatment from ChatGPT later
+  portraitAlt: 'Catherine Campbell in glasses, chin in hand, reading a laptop screen.',
   // Placeholder: cropped from the approved hero reference until ChatGPT's text-free hero (batch 2) arrives.
   hero: '/art/hero-placeholder.webp',
   heroAlt: 'An open notebook under a warm desk lamp. One page shows a tree with pastel cogs among its leaves, the other a brain, joined by dotted lines of thought.',

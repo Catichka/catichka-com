@@ -17,7 +17,7 @@ import { hero, about, expertise, experience, research, closing, art } from '../s
   <section id="about" class="section wrap">
     <p class="eyebrow">About</p>
     <div class:list={['about-grid', { 'has-portrait': art.portrait }]}>
-      {art.portrait && <img class="portrait" src={art.portrait} alt="Catherine Campbell" />}
+      {art.portrait && <img class="portrait" src={art.portrait} alt={art.portraitAlt} width="640" height="800" loading="lazy" />}
       <div>
         <h2 class="quote">“{about.quote}”</h2>
         {about.paragraphs.map((p) => <p class="about-p">{p}</p>)}
