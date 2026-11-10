@@ -55,7 +55,7 @@ import { hero, about, expertise, experience, research, closing, art } from '../s
           <p class="role">{x.role}</p>
           <h3>{x.href ? <a href={x.href}>{x.org} <span aria-hidden="true">↗</span></a> : x.org}</h3>
           <p class="muted">{x.body}</p>
-          <ul class="ticks">{x.points.map((pt) => <li>{pt}</li>)}</ul>
+          {x.points.length > 0 && <ul class="ticks">{x.points.map((pt) => <li>{pt}</li>)}</ul>}
         </li>
       ))}
     </ol>

@@ -35,13 +35,14 @@ export const about = {
   quote: 'Turning emerging ideas into practical, responsible solutions.',
   paragraphs: [
     'I’m an Australian technology and innovation leader working across digital infrastructure, artificial intelligence, research partnerships and organisational transformation.',
-    'Over fifteen years I’ve worked closely with small and digital businesses, gaming publishers, government and telecommunications. At nbn I connect Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
+    'I hold a Master’s degree in Artificial Intelligence, and over fifteen years I’ve worked closely with small and digital businesses, gaming publishers, government and telecommunications. At nbn I connect Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
     'I’m most interested in where technology and human capability meet: how organisations adopt AI well, how research becomes real-world impact, and how we use powerful tools without losing what makes us human.',
   ],
   facts: [
     { value: '15 years', label: 'across tech, games, government and telco' },
     { value: 'nbn', label: 'technology and innovation leadership' },
     { value: 'UTS', label: 'Honorary Industry Fellow' },
+    { value: 'Master’s', label: 'in Artificial Intelligence' },
     { value: 'CatichkaBeta', label: 'founder of a small AI-powered studio' },
   ],
 };
@@ -88,6 +89,18 @@ export const experience = [
     body: 'A small studio building apps and games with AI tools, and a space for people using AI in interesting ways.',
     points: ['Browser games including T-Rex Run! and A Most Inconvenient Eternity', 'Hands-on practice with AI-assisted design and development'],
     href: 'https://catichkabeta.com',
+  },
+  {
+    org: 'National Survivors Foundation',
+    role: 'Volunteer',
+    body: 'Volunteering with a national charity that supports survivors of institutional abuse.',
+    points: [],
+  },
+  {
+    org: 'Master of Artificial Intelligence',
+    role: 'Education',
+    body: 'Postgraduate study in artificial intelligence.',
+    points: [],
   },
   {
     org: 'Earlier career',
