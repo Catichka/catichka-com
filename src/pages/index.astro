@@ -52,7 +52,7 @@ import { hero, about, expertise, experience, featured, research, closing, art } 
     <ol class="timeline">
       {experience.map((x) => (
         <li>
-          <p class="role">{x.role}</p>
+          <p class="role">{x.role}{x.date && <span class="date"> · {x.date}</span>}</p>
           <h3>{x.href ? <a href={x.href}>{x.org} <span aria-hidden="true">↗</span></a> : x.org}</h3>
           <p class="muted">{x.body}</p>
           {x.points.length > 0 && <ul class="ticks">{x.points.map((pt) => <li>{pt}</li>)}</ul>}
@@ -83,8 +83,8 @@ import { hero, about, expertise, experience, featured, research, closing, art } 
     <h2>Thinking in public</h2>
     <p class="lede">{research.intro}</p>
     <div class="cards two">
-      {[research.areas, research.speaking].map((g) => (
-        <div class="card">
+      {[research.areas, research.speaking, research.publications].map((g, i) => (
+        <div class={i === 2 ? 'card wide' : 'card'}>
           <h3>{g.title}</h3>
           <ul class="ticks">{g.points.map((pt) => <li>{pt}</li>)}</ul>
         </div>
