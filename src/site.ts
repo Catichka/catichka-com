@@ -13,7 +13,7 @@ export const nav = [
   { href: 'https://www.linkedin.com/in/catherinecampbell-/', label: 'linkedin', external: true },
   { href: 'https://catichkabeta.com', label: 'catichkabeta', external: true },
   { href: 'https://substack.com/@ca7ichka', label: 'blog', external: true },
-  { href: 'mailto:catichka@catichkabeta.com', label: 'contact' },
+  { href: '/#contact', label: 'contact' },
 ];
 
 const linkedin = 'https://www.linkedin.com/in/catherinecampbell-/';
@@ -213,6 +213,7 @@ export const closing = {
   title: 'Let’s work together',
   line: 'For partnerships, research collaboration, speaking or advisory work, I’d love to hear from you.',
   action: { label: 'Get in touch', href: 'mailto:catichka@catichkabeta.com' },
+  email: 'catichka@catichkabeta.com',
 };
 
 export const art = {
