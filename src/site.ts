@@ -111,8 +111,16 @@ export const experience = [
 ];
 
 // Featured talks and articles (newest first). To add one: Catherine sends the LinkedIn link and text,
-// and a new entry goes at the top. kind is 'Talk' or 'Article'.
+// and a new entry goes at the top. kind is 'Talk', 'Article' or 'In the media'.
 export const featured = [
+  {
+    kind: 'In the media',
+    date: '10 November 2026',
+    title: 'How nbn® prepares for GTA 6',
+    body: 'On how nbn® Australia works with the content distribution community to model the impact of major game releases, and uses pre-seeding to spread downloads out and reduce demand at launch.',
+    href: 'https://www.linkedin.com/posts/catherinecampbell-_gaming-innovation-nbn-share-7525783813260763137-Sb9X/',
+    linkLabel: 'Read on LinkedIn',
+  },
   {
     kind: 'Talk',
     date: '4 November 2026',
