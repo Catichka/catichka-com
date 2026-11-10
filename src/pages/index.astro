@@ -96,9 +96,10 @@ import { hero, about, expertise, experience, featured, research, closing, art } 
     </div>
   </section>
 
-  <section class="section wrap closing">
+  <section id="contact" class="section wrap closing">
     <h2>{closing.title}</h2>
     <p class="lede">{closing.line}</p>
     <a class="btn" href={closing.action.href}>{closing.action.label}</a>
+    <p class="contact-email">or email <a href={`mailto:${closing.email}`}>{closing.email}</a></p>
   </section>
 </Base>

@@ -13,7 +13,7 @@ export const nav = [
   { href: 'https://www.linkedin.com/in/catherinecampbell-/', label: 'linkedin', external: true },
   { href: 'https://catichkabeta.com', label: 'catichkabeta', external: true },
   { href: 'https://substack.com/@ca7ichka', label: 'blog', external: true },
-  { href: 'mailto:connect@catichkabeta.com', label: 'contact' },
+  { href: '/#contact', label: 'contact' },
 ];
 
 const linkedin = 'https://www.linkedin.com/in/catherinecampbell-/';
@@ -202,7 +202,7 @@ export const research = {
       '‘Fact and Fiction in the Neuropsychology of Art’, chapter 4 in The Aesthetic Mind: Philosophy and Psychology',
     ],
   },
-  invite: { label: 'Invite me to speak', href: 'mailto:connect@catichkabeta.com?subject=Speaking%20invitation' },
+  invite: { label: 'Invite me to speak', href: 'mailto:catichka@catichkabeta.com?subject=Speaking%20invitation' },
   links: [
     { label: 'UTS profile', href: 'https://profiles.uts.edu.au/Catherine.Campbell/about' },
     { label: 'ORCID', href: 'https://orcid.org/0009-0009-6215-3743' },
@@ -212,7 +212,8 @@ export const research = {
 export const closing = {
   title: 'Let’s work together',
   line: 'For partnerships, research collaboration, speaking or advisory work, I’d love to hear from you.',
-  action: { label: 'Get in touch', href: 'mailto:connect@catichkabeta.com' },
+  action: { label: 'Get in touch', href: 'mailto:catichka@catichkabeta.com' },
+  email: 'catichka@catichkabeta.com',
 };
 
 export const art = {
