@@ -148,7 +148,7 @@ export const experience = [
   {
     org: 'UNSW',
     role: 'Education',
-    body: 'Master’s in Artificial Intelligence (2008 – 2011), and a Bachelor of Arts with Honours in Psychology and Artificial Intelligence (2000 – 2007).',
+    body: 'Master’s in Artificial Intelligence (2008 – 2011), and a Bachelor of Arts with Honours in Analytical Philosophy, Psychology and Artificial Intelligence (2000 – 2007).',
     points: [],
   },
 ];
