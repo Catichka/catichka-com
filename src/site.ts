@@ -4,70 +4,70 @@
 export const site = {
   name: 'Catherine Campbell',
   short: 'catichka',
-  description: 'Catherine Campbell: how people, minds and machines think together. AI strategy, research and the things I make.',
+  description: 'Catherine Campbell: technology and innovation leader in AI strategy, research partnerships and digital infrastructure.',
 };
 
-// Nav order and labels from the approved hero (docs/art/batch-01/hero-style-approved.png).
+// Nav labels and order. Catherine, 10 Nov 2026: this is a professional site, not a blog.
 export const nav = [
-  { href: '/#thinking', label: 'thinking' },
-  { href: '/#making', label: 'making' },
-  { href: '/#work', label: 'work & research' },
-  { href: '/#hi', label: 'say hi' },
+  { href: '/#about', label: 'about' },
+  { href: '/#expertise', label: 'expertise' },
+  { href: '/#experience', label: 'experience' },
+  { href: '/#research', label: 'research & speaking' },
+  { href: '/#contact', label: 'contact' },
   { href: 'https://catichkabeta.com', label: 'catichkabeta', external: true },
 ];
 
+const linkedin = 'https://www.linkedin.com/in/catherinecampbell-/';
+
 export const hero = {
+  kicker: 'AI strategy · research partnerships · digital infrastructure',
   name: 'Catherine Campbell',
-  line: 'I keep coming back to one question: how do people, minds and machines think together?',
-  cta: { href: '#thinking', label: 'What I’m thinking about ↓' },
-};
-
-// Placeholder ideas: Cat to rewrite in her own words.
-export const thinking = {
-  intro: 'A few things I’m turning over right now. I write about them properly on Substack.',
-  ideas: [
-    { title: 'Thinking with machines', body: 'What changes in how we reason, decide and create when an AI is part of the conversation.' },
-    { title: 'Responsible, not fearful', body: 'Using AI tools ethically and well, without sacrificing your soul.' },
-    { title: 'Minds, philosophically', body: 'What philosophy, cognitive science and neuroscience can tell us about artificial minds, and about our own.' },
-  ],
-  substack: 'https://substack.com/@ca7ichka',
-};
-
-export const making = {
-  intro: 'CatichkaBeta is where I build things with friends: apps, games and experiments where imagination meets tools.',
-  projects: [
-    { title: 'CatichkaBeta', body: 'Our studio and the space for people using AI in interesting ways.', href: 'https://catichkabeta.com' },
-    { title: 'T-Rex Run!', body: 'A browser game. Play it now.', href: 'https://trexgame.catichkabeta.com' },
-    { title: 'A Most Inconvenient Eternity', body: 'A browser game. Play it now.', href: 'https://eternity.catichkabeta.com' },
-    { title: 'Sands of Atlantis', body: 'A game, coming soon.', href: null },
+  line: 'Technology and innovation leader connecting technology, research and people to shape what’s next.',
+  actions: [
+    { href: '#experience', label: 'See my work' },
+    { href: linkedin, label: 'Connect on LinkedIn ↗', ghost: true },
   ],
 };
 
-export const work = {
-  intro: 'Fifteen years working across small and digital businesses, gaming publishers, government and telecommunications. These days I connect technology, research and people.',
-  expertise: [
-    { title: 'Artificial intelligence', body: 'Practical, thoughtful AI strategy, capability building and responsible transformation.' },
-    { title: 'Research and innovation', body: 'Bridging academia and industry to connect promising research with real-world opportunities.' },
-    { title: 'Digital infrastructure', body: 'How connectivity, technology ecosystems and partnerships shape Australia’s future.' },
+export const about = {
+  paragraphs: [
+    'I’m an Australian technology and innovation leader working across digital infrastructure, artificial intelligence, research partnerships and organisational transformation.',
+    'Over fifteen years I’ve worked closely with small and digital businesses, gaming publishers, government and telecommunications. At nbn I connect Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
+    'I care about turning emerging ideas into practical, responsible solutions, and about how technology and human capability work together.',
   ],
-  experience: [
-    { title: 'Leadership at nbn', body: 'Technology and innovation work within Australia’s national broadband ecosystem, including network partnerships.' },
-    { title: 'UTS and ASTRID', body: 'Research collaboration bringing industry and academia together. Honorary Industry Fellow at UTS.' },
-    { title: 'AI strategy and transformation', body: 'Practical AI adoption, governance, roadmaps, policy and ethics. Talks, seminars and workshops on responsible AI.' },
-    { title: 'Research foundations', body: 'Philosophical, cognitive and neurological approaches to AI.' },
+};
+
+export const expertise = [
+  { title: 'AI strategy and responsible AI', body: 'Practical, thoughtful AI strategy, governance and roadmaps, capability building and responsible transformation.' },
+  { title: 'Research and innovation partnerships', body: 'Bridging academia and industry to connect promising research with real-world opportunities.' },
+  { title: 'Digital infrastructure', body: 'How connectivity, technology ecosystems and partnerships shape Australia’s future.' },
+];
+
+// Draft: dates and job titles to come from Catherine's LinkedIn.
+export const experience = [
+  { org: 'nbn Australia', role: 'Technology and innovation leadership', body: 'Work within Australia’s national broadband ecosystem, including network partnerships, and connecting nbn with the research and innovation community.' },
+  { org: 'University of Technology Sydney', role: 'Honorary Industry Fellow', body: 'Research collaboration between industry and academia, including the ASTRID collaboration. Writing on AI governance, roadmaps, capability and responsible output.' },
+  { org: 'CatichkaBeta', role: 'Founder', body: 'A small studio building apps and games with AI tools, and a space for people using AI in interesting ways.', href: 'https://catichkabeta.com' },
+  { org: 'Earlier career', role: 'Fifteen years across sectors', body: 'Small and digital businesses, gaming publishers, government and telecommunications.' },
+];
+
+export const research = {
+  intro: 'My research interests sit at the meeting point of philosophy, cognitive science, neuroscience and AI.',
+  items: [
+    { title: 'Research', body: 'Philosophical, cognitive and neurological approaches to AI, and responsible AI in practice.' },
+    { title: 'Talks, seminars and workshops', body: 'Ethical and responsible uses of AI, and how to use these tools without sacrificing your soul.' },
   ],
-  profiles: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/catherinecampbell-/' },
+  links: [
     { label: 'UTS profile', href: 'https://profiles.uts.edu.au/Catherine.Campbell/about' },
     { label: 'ORCID', href: 'https://orcid.org/0009-0009-6215-3743' },
   ],
 };
 
-export const hi = {
-  line: 'Curious about the same things? I’d love to hear from you.',
+export const contact = {
+  line: 'For partnerships, research collaboration, speaking or advisory work, get in touch.',
   email: 'connect@catichkabeta.com',
-  socials: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/catherinecampbell-/' },
+  links: [
+    { label: 'LinkedIn', href: linkedin },
     { label: 'Substack', href: 'https://substack.com/@ca7ichka' },
     { label: 'Instagram', href: 'https://www.instagram.com/catichkasphilosophyforlife/' },
     { label: 'X', href: 'https://x.com/catichka' },
@@ -76,6 +76,7 @@ export const hi = {
 
 export const art = {
   mark: '/art/mark.png', // approved druid mark (batch 1), edges cleaned for web
+  portrait: null as string | null, // Catherine's photo, framed per ChatGPT's portrait treatment (batch 2)
   // Placeholder: cropped from the approved hero reference until ChatGPT's text-free hero (batch 2) arrives.
   hero: '/art/hero-placeholder.webp',
   heroAlt: 'An open notebook under a warm desk lamp. One page shows a tree with pastel cogs among its leaves, the other a brain, joined by dotted lines of thought.',
