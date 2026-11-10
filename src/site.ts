@@ -35,14 +35,14 @@ export const about = {
   quote: 'Turning emerging ideas into practical, responsible solutions.',
   paragraphs: [
     'I’m an Australian technology and innovation leader working across digital infrastructure, artificial intelligence, research partnerships and organisational transformation.',
-    'I hold a Master’s in Analytical Philosophy and Artificial Intelligence from UNSW, and over twenty years I’ve worked with small and digital businesses, game developers, federal parliament and government, and telecommunications. As a General Manager in nbn’s Chief Technology Office I lead network innovation, partnerships and roadmaps, connecting Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
+    'I hold a Master’s in Artificial Intelligence from UNSW, and over fifteen years I’ve worked with small and digital businesses, game developers, federal parliament and government, and telecommunications. As a General Manager in nbn’s Chief Technology Office I lead network innovation, partnerships and roadmaps, connecting Australia’s national broadband network with the research and innovation ecosystem, including collaborations with UTS, where I’m an Honorary Industry Fellow.',
     'I’m most interested in where technology and human capability meet: how organisations adopt AI well, how research becomes real-world impact, and how we use powerful tools without losing what makes us human.',
   ],
   facts: [
-    { value: '20+ years', label: 'across business, games, government and telco' },
+    { value: '15 years', label: 'across business, games, government and telco' },
     { value: 'nbn', label: 'General Manager, Network Innovation, CTO' },
     { value: 'UTS', label: 'Honorary Industry Fellow' },
-    { value: 'Master’s', label: 'philosophy and AI, UNSW' },
+    { value: 'Master’s', label: 'in Artificial Intelligence, UNSW' },
     { value: 'CatichkaBeta', label: 'founder of a small AI-powered studio' },
   ],
 };
@@ -148,7 +148,7 @@ export const experience = [
   {
     org: 'UNSW',
     role: 'Education',
-    body: 'Master of Arts in Analytical Philosophy and Artificial Intelligence (2008 – 2011), and a Bachelor of Arts with Honours in Analytical Philosophy, Psychology and Artificial Intelligence (2000 – 2007).',
+    body: 'Master’s in Artificial Intelligence (2008 – 2011), and a Bachelor of Arts with Honours in Psychology and Artificial Intelligence (2000 – 2007).',
     points: [],
   },
 ];
