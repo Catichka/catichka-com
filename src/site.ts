@@ -68,8 +68,24 @@ export const expertise = [
   },
 ];
 
-// Roles, dates and titles from Catherine's LinkedIn profile (10 Nov 2026). Newest first.
+// Roles, dates and titles from Catherine's LinkedIn profile (10 Nov 2026).
+// Newest first by start date; memberships and education at the end.
 export const experience = [
+  {
+    org: 'National Survivors Foundation',
+    role: 'AI Transformation, Policy and Ethics (pro bono)',
+    date: '2026 – now',
+    body: 'Pro bono consultant on AI transformation, policy and ethics for one of Australia’s largest not-for-profit survivors foundations (formerly the In Good Faith Foundation).',
+    points: [],
+  },
+  {
+    org: 'CatichkaBeta',
+    role: 'Founder',
+    date: '2026 – now',
+    body: 'A small studio building apps and games with AI tools, and a space for people using AI in interesting ways.',
+    points: ['Browser games including T-Rex Run! and A Most Inconvenient Eternity', 'Hands-on practice with AI-assisted design and development'],
+    href: 'https://catichkabeta.com',
+  },
   {
     org: 'nbn® Australia',
     role: 'General Manager, Network Innovation, Partnerships and Roadmaps, CTO',
@@ -82,6 +98,21 @@ export const experience = [
       'Executive and Board papers, white papers and technology disruption advice',
       'Vendor innovation funds, IP and patents, and talent programs including ASTRID, nbn internships and the Graduate STEM strategy',
     ],
+  },
+  {
+    org: 'University of Technology Sydney',
+    role: 'Honorary Industry Fellow',
+    date: '2025 – now',
+    body: 'Continuing my AI and digital research, writing papers and collaborating across the academic community.',
+    points: ['The ASTRID collaboration', 'Writing on AI governance, roadmaps, capability and responsible output'],
+    href: 'https://profiles.uts.edu.au/Catherine.Campbell/about',
+  },
+  {
+    org: 'UniSC Engineers',
+    role: 'Technology Industry Advisory Committee member',
+    date: '2024 – now',
+    body: 'Industry advice for engineering at the University of the Sunshine Coast.',
+    points: [],
   },
   {
     org: 'nbn® Australia',
@@ -101,35 +132,6 @@ export const experience = [
       'Strategic advice on sensitive, business-critical issues and risks',
       'Ministerial and departmental correspondence and time-sensitive media enquiries',
     ],
-  },
-  {
-    org: 'National Survivors Foundation',
-    role: 'AI Transformation, Policy and Ethics (pro bono)',
-    date: '2026 – now',
-    body: 'Pro bono consultant on AI transformation, policy and ethics for one of Australia’s largest not-for-profit survivors foundations (formerly the In Good Faith Foundation).',
-    points: [],
-  },
-  {
-    org: 'University of Technology Sydney',
-    role: 'Honorary Industry Fellow',
-    date: '2025 – now',
-    body: 'Continuing my AI and digital research, writing papers and collaborating across the academic community.',
-    points: ['The ASTRID collaboration', 'Writing on AI governance, roadmaps, capability and responsible output'],
-    href: 'https://profiles.uts.edu.au/Catherine.Campbell/about',
-  },
-  {
-    org: 'UniSC Engineers',
-    role: 'Technology Industry Advisory Committee member',
-    date: '2024 – now',
-    body: 'Industry advice for engineering at the University of the Sunshine Coast.',
-    points: [],
-  },
-  {
-    org: 'CatichkaBeta',
-    role: 'Founder',
-    body: 'A small studio building apps and games with AI tools, and a space for people using AI in interesting ways.',
-    points: ['Browser games including T-Rex Run! and A Most Inconvenient Eternity', 'Hands-on practice with AI-assisted design and development'],
-    href: 'https://catichkabeta.com',
   },
   {
     org: 'Federal Parliament',
